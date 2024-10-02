@@ -2,9 +2,28 @@
   "[javascript]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
-"editor.formatOnSave": true,
- "editor.codeActionsOnSave": {
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
     "quickfix.biome": "explicit"
   },
-  "tailwindCSS.classAttributes": ["className", "class", "classNames"]
+  "tailwindCSS.classAttributes": [
+    "className",
+    "class",
+    "classNames"
+  ],
+  "cmake.options.advanced": {
+    "buildPreset": {},
+    "build": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "visible"
+    },
+    "launch": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "visible"
+    },
+    "debug": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "visible"
+    }
+  }
 }
